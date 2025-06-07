@@ -1,0 +1,92 @@
+@font-face{font-family:Satoshi;font-style:normal;font-weight:400;src:local('Satoshi'),url(https://fonts.cdnfonts.com/s/85546/Satoshi-Regular.woff) format('woff')}@font-face{font-family:satoshi;font-style:italic;font-weight:400;src:local('Satoshi'),url(https://fonts.cdnfonts.com/s/85546/Satoshi-Italic.woff) format('woff')}@font-face{font-family:satoshi;font-style:normal;font-weight:300;src:local('Satoshi'),url(https://fonts.cdnfonts.com/s/85546/Satoshi-Light.woff) format('woff')}@font-face{font-family:satoshi;font-style:italic;font-weight:300;src:local('Satoshi'),url(https://fonts.cdnfonts.com/s/85546/Satoshi-LightItalic.woff) format('woff')}@font-face{font-family:satoshi;font-style:normal;font-weight:500;src:local('Satoshi'),url(https://fonts.cdnfonts.com/s/85546/Satoshi-Medium.woff) format('woff')}@font-face{font-family:satoshi;font-style:italic;font-weight:500;src:local('Satoshi'),url(https://fonts.cdnfonts.com/s/85546/Satoshi-MediumItalic.woff) format('woff')}@font-face{font-family:satoshi;font-style:normal;font-weight:700;src:local('Satoshi'),url(https://fonts.cdnfonts.com/s/85546/Satoshi-Bold.woff) format('woff')}@font-face{font-family:satoshi;font-style:italic;font-weight:700;src:local('Satoshi'),url(https://fonts.cdnfonts.com/s/85546/Satoshi-BoldItalic.woff) format('woff')}@font-face{font-family:satoshi;font-style:normal;font-weight:900;src:local('Satoshi'),url(https://fonts.cdnfonts.com/s/85546/Satoshi-Black.woff) format('woff')}@font-face{font-family:satoshi;font-style:italic;font-weight:900;src:local('Satoshi'),url(https://fonts.cdnfonts.com/s/85546/Satoshi-BlackItalic.woff) format('woff')}
+
+     
+     html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        padding-top: 50px;
+      }
+
+      body,
+      p {
+        font-family: 'Gantari', sans-serif;
+      }
+
+      .d-flex img {
+        max-width: 125px;
+      }
+
+      .blog-post {
+        padding-bottom: 20%
+      }
+
+      .bg-dark {
+        background-color: #1b1f22 !important;
+      }
+
+      aside#buy div.bg-dark {
+        background-color: #ccc;
+        border: 1px solid transparent;
+        -webkit-transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        -moz-transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      }
+
+      aside#buy div.bg-dark.active {
+        border-color: var(--primary);
+        -webkit-box-shadow: 0 0 1000px #007bff0f, 0 0 50px #007bff2f;
+        -moz-box-shadow: 0 0 1000px #007bff0f, 0 0 50px #007bff2f;
+        box-shadow: 0 0 1000px #007bff0f, 0 0 50px #007bff2f;
+      }
+
+      h6 {
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+      }
+        p, li {
+            line-height: 1.6;
+            font-size: 1.05em;
+        }
+        #hero-img{
+            transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+            -moz-transform: scale(1.2);
+        }
+        #socials a {
+            font-size: x-large;
+        }
+        h1, h2, h3, h4, h5, .navbar-brand {
+            font-family: Satoshi, Gantari, sans-serif;
+        }
+/* Hire  */
+      h6 {
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+      }
+      #socials a {
+          font-size: x-large;
+      }
+
+/* Home  */
+      div#hero {
+        background-image: linear-gradient(45deg, black, #000000aa), url(./best-pitch-decks.jpg);
+        background-size: cover;
+        background-position: center center;
+        color: white !important;
+      }
+
+      div#quotes {
+        background-image: linear-gradient(45deg, black, #000000aa), url(./best-pitch-deck.jpg);
+        background-size: cover;
+        background-position: center center;
+        /* color: white !important; */
+      }
+
+      .text-semiop {
+        opacity: 0.5;
+      }
+      #socials a {
+          font-size: x-large;
+      }

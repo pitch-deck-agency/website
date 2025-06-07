@@ -1,0 +1,1024 @@
+<!doctype html>
+<html lang="en">
+<!-- 
+ ██▒   ██ ██░ ██▓███      █     █░  ▄▄        ██████     ██░ ██ ▓█████  ██▀███  ▓█████ 
+▓██░   █▒░██▒▒██░  ██▒   ▓█░ █ ░█░▒ ███▄    ▒██    ▒     ██░ ██▒▓█   ▀ ▓██   ██▒▓█   ▀ 
+ ▓██  ██░▒██▒▒██░ ██▓▒   ▒█░ █ ░█ ▒██  ▀█▄  ░ ▓██▄      ▒██▀▀██░▒███   ▓██ ░▄█ ▒▒███   
+  ▒██ █░░░██░░██▄█▓▒ ▒   ░█░ █ ░█ ░██▄▄▄▄██   ▒   ██▒   ░▓█ ░██ ▒▓█  ▄ ▒██▀▀█▄  ▒▓█  ▄ 
+   ▒▀██  ░██░▒██▒ ░  ░   ░░██▒██▓  ▓█   ▓██▒▒██████▒▒   ░▓█▒░██▓░▒████▒░██▓ ▒██▒░▒████▒
+   ░ ▐░  ░▓  ▒▓▒░ ░  ░   ░ ▓░▒ ▒   ▒▒   ▓▒█░▒ ▒▓▒ ▒ ░    ▒ ░░▒░▒░░ ▒░ ░░ ▒▓ ░▒▓░░░ ▒░ ░
+   ░ ░░   ▒ ░░▒ ░          ▒ ░ ░    ▒   ▒▒ ░░ ░▒  ░ ░    ▒ ░▒░ ░ ░ ░  ░  ░▒ ░ ▒░ ░ ░  ░
+     ░░   ▒ ░░░            ░   ░    ░   ▒   ░  ░  ░      ░  ░░ ░   ░     ░░   ░    ░   
+      ░   ░                  ░          ░  ░      ░      ░  ░  ░   ░  ░   ░        ░  ░ 
+—————░———————————————————————————————————————————
+All rights reserved. (C) Copyright 2022 - 2024 PitchDecks.design
+No re-use, distribution or modification without permission.
+ -->
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!--  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> -->
+
+    <!-- GumSheet styles -->
+    <link rel="stylesheet" href="https://gs.vip.graphics/dist/style.min.css">
+      <title>We'll build your winning pitch deck &ndash; Pitch Decks Design</title>
+      <meta name="publisher" content="Pitch Decks Design">
+      <meta name="author" content="Pitch Decks Design">
+      <meta name="description" content="We'll build your winning pitch deck. Hire expert pitch deck consultants: over $2B in deals & funding closed, trusted by award-winning startups (ie. Y-Combinator, Techstars, Forbes 30u30) and Fortune 500 companies.">
+
+      <!-- Search -->
+      <meta name="robots" content="index,follow"><!-- All Search Engines -->
+      <meta name="googlebot" content="index,follow"><!-- Google Specific -->
+
+      <!-- Social -->
+      <meta property="og:type" content="website">
+      <meta property="og:title" content="Hire the pitch deck design experts &ndash; Best Pitch">
+      <meta property="og:image" content="https:/pitchdecks.design/pitchdecks.us_cover.png">
+      <meta property="og:description" content="We'll build your winning pitch deck. Hire expert pitch deck consultants: over $2B in deals & funding closed, trusted by award-winning startups (ie. Y-Combinator, Techstars, Forbes 30u30) and Fortune 500 companies.">
+      <meta property="og:site_name" content="Pitch Decks Design">
+      <meta property="og:locale" content="en_US">
+      <meta property="article:author" content="VIP Graphics">
+
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:title" content="Hire the pitch deck design experts &ndash; Best Pitch">
+      <meta name="twitter:description" content="We'll build your winning pitch deck. Hire expert pitch deck consultants: over $2B in deals & funding closed, trusted by award-winning startups (ie. Y-Combinator, Techstars, Forbes 30u30) and Fortune 500 companies.">
+      <meta name="twitter:image" content="https:/pitchdecks.us/pitchdecks.us_cover.png">
+
+      <!-- Color -->
+      <meta name="theme-color" content="#0083f5">
+      <meta name="apple-mobile-web-app-status-bar-style" content="#0083f5">
+
+      <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://pitchdecks.design/icon.png">
+      <style>:root { --primary: #0083f5 !important; }</style>
+      <style>p#checklist { font-size: 1.25em; line-height: 1.65 }</style>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"  crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gantari:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="/style_plain.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+<!-- Begin Inspectlet Asynchronous Code -->
+<script type="text/javascript">
+(function() {
+window.__insp = window.__insp || [];
+__insp.push(['wid', 1732498309]);
+var ldinsp = function(){
+if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js?wid=1732498309&r=' + Math.floor(new Date().getTime()/3600000); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+setTimeout(ldinsp, 0);
+})();
+</script>
+<!-- End Inspectlet Asynchronous Code -->
+  </head><body data-spy="scroll" data-target="#navbarCollapse"><!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//track.sitaraman.vip/piwik/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//track.sitaraman.vip/piwik/matomo.php?idsite=2&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code -->  
+<script async data-id="101440256" src="//static.getclicky.com/js"></script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101440256ns.gif" /></p></noscript>
+
+<nav class="navbar navbar-light bg-white navbar-expand-md fixed-top animated fadeInDown">
+      <a class="navbar-brand d-flex" href="/">
+        <img id="logo-img" width="30" height="30" style="margin-right: 4px;" src="/pitch-decks-logo.svg">
+        <strong id="logo-text">Pitch Decks Design</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul id="nav-main" class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="#features">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#folio">Past Work</a></li>
+            <li class="nav-item"><a class="nav-link" href="#reviews">Testimonials</a></li>
+            <li class="nav-item"><a class="nav-link" href="#buy">Pricing</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li></ul>
+        <ul class="navbar-nav navbar-right">
+          <li class="nav-item">
+            <a id="nav-btn1" class="btn btn-primary mb-3 mb-md-0 ml-md-3" href="#buy">Get Started</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="hero" class="container pt-5">
+        <div class="row">
+          <div class="col-11 col-lg-7">
+              <div id="hero-text" class="mt-3">
+                <!-- Expert pitch deck designer.
+Hire the pitch deck expert with over $200m+ raised, trusted by Fortune 500s and award-winning (ie. YC, 30u30) startups.
+ Over $200M+ raised to-date -->
+                  <h5 id="slogan" class="animated fadeInUp">Slide decks that close deals.™</h5>
+                  <h1 id="product-title" class="display-4 text-primary">We'll build your winning pitch deck.</h1>
+                  <p id="product-subtitle" class="lead text-muted">Hire the experts to craft & design your pitch deck. <strong>Over $2 billion raised</strong>, trusted by top startups (ie. YC, 30u30) and Fortune 100.</p>
+                  <span> <a id="hero-btn-1" class="btn btn-lg btn-primary px-4 mr-2" href="#buy">Get started</a> <a class="btn btn-lg btn-outline-primary" id="hero-btn-2" href="#features">Learn more &rarr;</a></span>
+                  <p class="text-muted"><i id="hero-tag-icon" class="fa fa-check-circle"></i>&nbsp; <span id="hero-tag">1-on-1 expertise &nbsp;&bull;&nbsp; Design + research &nbsp;&bull;&nbsp; 2-3wk turnaround</span></p>
+              </div>
+          </div>
+          <div class="col-12 col-lg-5 my-auto">
+              <a href="#buy"><img id="hero-img" class="img-fluid" style="min-width: 35vw;" src="/img/slides-marquee.png"></a>
+        </div>
+      </div>
+    </div>
+
+<style>
+body, div.bg-primary, .carousel-item {
+    background-image: url('https://vip.graphics/wp-content/uploads/2022/06/noise-texture.png');background-repeat: repeat;
+}
+.product-title {
+    line-height: 1;
+}
+html {
+  scroll-behavior: smooth;
+}
+.brands {
+    width: 100%;
+    padding-bottom: 90px
+}
+
+.brands_slider_container {
+    height: 130px;
+    border: solid 1px #e8e8e8;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    padding-left: 97px;
+    padding-right: 97px;
+    background: #fff;
+    position:  relative;
+}
+
+.brands_slider {
+    height: 100%;
+    margin-top: 25px
+}
+
+.brands_item {
+    height: 100%;
+}
+
+.brands_item img {
+    max-width: 100%;
+    max-height: 70px;
+    transition: filter 0.45s cubic-bezier(0.3, 0.4, 0.1, 1), opacity 0.45s cubic-bezier(0.3, 0.4, 0.1, 1);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.55;
+}
+
+.brands_item img:hover {
+   filter:  none;
+}
+
+.brands_nav {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 5px;
+    cursor: pointer
+}
+
+.brands_nav i {
+    color: #e5e5e5;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease
+}
+
+.brands_nav:hover i {
+    color: #676767
+}
+
+.brands_prev {
+    left: 40px
+}
+
+.brands_next {
+    right: 40px
+}
+@media only screen and (max-width: 768px){
+.brands_item img {
+    max-width: 100%;
+    max-height: 50px;
+}
+.brands_slider_container {
+    padding: 0px;
+    height: 110px;
+}
+.carousel-caption p{
+    font-size:  unset;
+}
+}
+</style>
+
+
+    <div class="bg-primary container-fluid py-5 mb-3">
+      <div id="metrics" class="container">
+        <div class="row mt-3">
+          <div class="col-6 col-lg-3 my-auto px-0 text-white text-center">
+              <p id="metric3" class="display-4 mb-0">230+</p>
+              <p id="metric3description" class="text-muted mb-3">Happy clients</p>
+          </div>
+          <div class="col-6 col-lg-3 my-auto px-0 text-white text-center">
+              <p id="metric2" class="display-4 mb-0">76+</p>
+              <p id="metric2description" class="text-muted mb-3">Industries served</p>
+          </div>
+          <div class="col-6 col-lg-3 my-auto px-0 text-white text-center">
+              <p id="metric4" class="display-4 mb-0">$2.05B+</p>
+              <p id="metric4description" class="text-muted mb-3">Deals & investments closed</p>
+          </div>
+          <div class="col-6 col-lg-3 my-auto px-0 text-white text-center">
+              <p id="metric1" class="display-4 mb-0">7+</p>
+              <p id="metric1description" class="text-muted mb-3">Years of expertise</p>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="brands">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="text-center mx-auto" style="max-width: 600px;">
+                  <h2 class="mt-5">Trusted by the <span class="text-primary">biggest & best</span>.</h2> 
+                  <p class="mb-4">We've helped the likes of Fortune 500 companies, Forbes 30u30 & Inc. 5000 winners, and Y-Combinator & Techstars alums.</p>
+                </div>
+                <div class="brands_slider_container">
+                    <div class="owl-carousel owl-theme brands_slider">
+                        <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center my-auto"><img src="https://sitaraman.vip/wp-content/uploads/2019/04/ieg-banking.png" alt="IEG Banking"></div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center my-auto"><img src="https://sitaraman.vip/wp-content/uploads/2020/10/clients_AHA@2x.png" alt="American Heart Association"></div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center my-auto"><img src="https://sitaraman.vip/wp-content/uploads/2020/10/clients_JCPenney@2x.png" alt="JCPenney"></div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center my-auto"><img src="https://sitaraman.vip/wp-content/uploads/2020/10/clients_KettleFire@2x.png" alt="Kettle & Fire"></div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center my-auto"><img src="https://sitaraman.vip/wp-content/uploads/2019/04/elsevier-2.png" alt="Elsevier"></div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center my-auto"><img src="https://sitaraman.vip/wp-content/uploads/2020/10/clients_POW@2x.png" alt="Stan Lee's POW! Entertainment"></div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center my-auto"><img src="https://sitaraman.vip/wp-content/uploads/2020/10/clients_AmSci@2x.png" alt="American Scientist"></div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center my-auto"><img src="https://sitaraman.vip/wp-content/uploads/2020/10/clients_PEPSICO@2x.png" alt="PEPSICO"></div>
+                        </div>
+                    </div> <!-- Brands Slider Navigation -->
+                    <div class="brands_nav brands_prev"><i class="fas fa-chevron-left"></i></div>
+                    <div class="brands_nav brands_next"><i class="fas fa-chevron-right"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <div id="features" class="container py-5">
+        <div class="row pt-5">
+          <div class="col col-md-10 offset-md-1 text-center">
+            <h2 id="features-title" class="display-4">Much more than a fancy deck</h2>
+            <p id="features-subtitle" class="text-muted">Years of experience working with both startups as well as investors &ndash; we know what works.</p>
+            <a class="btn btn-lg btn-primary px-4 mr-2 btn-1" href="#buy">Get started</a> <a class="btn btn-lg btn-outline-primary btn-2" href="#metrics">Learn more</a>
+          </div>
+        </div>
+
+        <div class="row pt-3">
+          <div class="col-lg-4 p-2 mb-3 text-center">
+            <div class="box p-4">
+                <i class="fa fa-2x fa-pencil-ruler text-primary mb-4"></i>
+                <h3 id="feature1">Design</h3>
+                <p id="feature1desc" class="px-2 text-muted">Create a custom-branded, visually-stunning presentation that's fully-editable in PowerPoint.</p>
+            </div>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4 p-2 mb-3 text-center">
+            <div class="box p-4">
+                <i class="fa fa-2x fa-microscope text-primary mb-4"></i>
+                <h3 id="feature2">Research</h3>
+                <p id="feature2desc" class="px-2 text-muted">Fortify your pitch with quality data: done-for-you competitive analysis, market research, etc.</p>
+            </div>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4 p-2 mb-3 text-center">
+            <div class="box p-4">
+                <i class="fa fa-2x fa-crosshairs text-primary mb-4"></i>
+                <h3 id="feature3">Strategy</h3>
+                <p id="feature3desc" class="px-2 text-muted">Leverage our proven process based on years of experience and a 9-figure track record of success.</p>
+            </div>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+
+        <div class="row pt-1">
+          <div class="col-lg-4 p-2 mb-3 text-center">
+            <div class="box p-4">
+                <i class="fa fa-2x fa-book text-primary mb-4"></i>
+                <h3 id="feature1">Storytelling</h3>
+                <p id="feature1desc" class="px-2 text-muted">Deliver an engaging story that captivates your audiences and closes deals faster.</p>
+            </div>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4 p-2 mb-3 text-center">
+            <div class="box p-4">
+                <i class="fa fa-2x fa-brain text-primary mb-4"></i>
+                <h3 id="feature2">Pitch expertise</h3>
+                <p id="feature2desc" class="px-2 text-muted">Tap into decades of knowledge from helping both startups & investors raise millions in funding.</p>
+            </div>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4 p-2 mb-3 text-center">
+            <div class="box p-4">
+                <i class="fa fa-2x fa-lightbulb text-primary mb-4"></i>
+                <h3 id="feature3">Advisory</h3>
+                <p id="feature3desc" class="px-2 text-muted">Draw from our expertise to hone & perfect how you present your business.</p>
+            </div>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+        </div>
+    </div>
+
+    <div id="cta" class="container">
+      <div class="row jumbotron p-4 p-md-5 text-white rounded bg-primary">
+        <div class="col-12 col-lg-8 my-auto px-0 text-center text-md-left">
+          <h2 id="cta-title" class="display-4">Close deals faster!</h2>
+          <p id="cta-subtitle" class="lead my-3">Venture capitalists & decision-makers see 5000+ slide decks every year—will your pitch stand out?</p>
+        </div>
+        <div class="col-lg-4 my-auto px-0 text-center text-lg-right">
+          <p class="lead mb-0"><a id="cta-button-1" href="#buy" class="btn btn-light btn-lg text-primary px-5 mb-2">Get Started</a><br><a id="cta-button-2" href="/" class="btn btn-outline-light btn-lg px-5">See more</a></p>
+        </div>
+      </div>
+    </div><!-- ./container --> 
+
+
+    <div id="success" class="container py-5">
+        <div class="row py-5 text-center">
+          <div class="col">
+            <h2 id="features-title" class="display-4">Success stories</h2>
+            <p id="features-subtitle" class="text-muted lead">Our clients have closed $2B+ from the likes of Tiger Global, Khosla Ventures, and Cisco Investments:</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card text-center"><div class="card-body">
+                <img class="rounded mb-3" style="height: 50px; width: 50px;" src="/img/forbidden-spirits.jpg">
+                <h4><span class="text-muted">Forbidden Spirits</span> &ndash; $3.6M</h4>
+                <p>Forbidden Spirits (TSXV:VDKA) is a fast-growing craft distillery headquartered in Kelowna, British Columbia listed on the Toronto Stock Exchange. Designed the pitch deck that helped the company raised $3.6 million.</p>
+            </div></div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center"><div class="card-body">
+                <img class="rounded mb-3" style="height: 50px; width: 50px;" src="/img/advano.png">
+                <h4><span class="text-muted">Advano (YC16)</span> &ndash; Series A</h4>
+                <p>Created the pitch deck that helped Advano raise their seed round after exiting the prestigious Y-Combinator accelerator program. Advano is pioneering next-generation batteries that are 10× more effective than today's options.</p>
+            </div></div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center"><div class="card-body">
+                <img class="rounded mb-3" style="height: 50px; width: 50px;" src="/img/rangeforce.jpg">
+                <h4><span class="text-muted">Rangeforce</span> &ndash; $15M</h4>
+                <p>RangeForce is an interactive and hands-on team cyber readiness platform. Designed the pitch deck used to raise their $15 million Series A round.</p>
+            </div></div>
+          </div>
+        </div>
+        <div class="row py-5 text-center">
+          <div class="col">
+            <a class="btn btn-lg btn-primary px-4 mr-2 btn-1" href="#buy">Get started</a> <a class="btn btn-lg btn-outline-primary btn-2" href="#metrics">Learn more</a>
+          </div>
+        </div><!-- Example row of columns -->
+    </div>
+
+    <div id="folio" class="py-5">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col">
+                  <div class="text-center mx-auto" style="max-width: 700px;">
+                    <h2>Recent <span class="text-primary">projects</span></h2> 
+                    <p class="mb-4">Slides designed by the experts: over $2B in deals &amp; funding closed.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-4">
+                  <img class="img-fluid mb-2" height="1920" width="2560" src="https://pitchdecks.design/img/fitness-gym-pitch-deck.jpg" alt="Fitness / gym pitch deck design">
+              </div>
+              <div class="col-4">
+                  <img class="img-fluid mb-2" height="1920" width="2560" src="https://pitchdecks.design/img/green-mobility-pitch-deck.jpg" alt="EV ridesharing mobility pitch deck design">
+              </div>
+              <div class="col-4">
+                  <img class="img-fluid mb-2" data-delay="0" height="1200" width="1600" src="/img/fintech-app-investor-pitch-deck-design.png" alt="SellSwap: fintech mobile app pitch deck (portfolio)">
+                  
+              </div>
+              <div class="col-4">
+                  <img class="img-fluid mb-2" data-delay="0" height="1920" width="2560" data-delay="0" height="1200" width="1600" data-animation="none" src="https://vip.graphics/wp-content/uploads/2022/03/slides-pepsico.jpg" alt="PEPSICO pitch deck (portfolio)" srcset="https://vip.graphics/wp-content/uploads/2022/03/slides-pepsico.jpg 1600w, https://vip.graphics/wp-content/uploads/2022/03/slides-pepsico-300x225.jpg 300w, https://vip.graphics/wp-content/uploads/2022/03/slides-pepsico-1024x768.jpg 1024w, https://vip.graphics/wp-content/uploads/2022/03/slides-pepsico-768x576.jpg 768w, https://vip.graphics/wp-content/uploads/2022/03/slides-pepsico-1536x1152.jpg 1536w" sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw">
+                  
+              </div>
+              <div class="col-4">
+                  <img class="img-fluid mb-2" data-delay="0" height="1920" width="2560" src="https://vip.graphics/wp-content/uploads/2024/08/web3-pitch-deck.png" alt="Web3 pitch deck (portfolio)">
+              </div>
+              <div class="col-4">
+                  <img class="img-fluid mb-2" height="1200" width="1600" src="https://vip.graphics/wp-content/uploads/2024/08/nonprofit-mobile-pitch-deck.png" alt="Nonprofit mobile app pitch deck design">
+                  
+              </div>
+          </div>
+      </div>
+    </div>
+    <style>
+    .image-icon.has-bg {
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    line-height: 70px;
+    background-size: cover;
+    background-position: center;
+    }
+    #folio img.img-fluid {
+    filter: grayscale(0.9);
+    -webkit-filter: grayscale(0.9);
+    -moz-filter: grayscale(0.9);
+    transition: 0.5s all ease-in-out;
+}
+
+#folio img.img-fluid:hover {
+    filter: none;
+    -webkit-filter: none;
+    -moz-filter: none;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 30rem;
+  background-color: #232c33;
+}
+.carousel-caption p {
+    font-size:  1.25rem;
+    color:  white !important
+}
+.testimonial-name {
+    color: #7a8fa3 !important;
+}
+
+.testimonial-name::before {
+    content: "— ";
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+    </style>
+     <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+          <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+          <li data-target="#myCarousel" data-slide-to="3" class=""></li>
+          <li data-target="#myCarousel" data-slide-to="4" class=""></li>
+          <li data-target="#myCarousel" data-slide-to="5" class=""></li>
+          <li data-target="#myCarousel" data-slide-to="6" class=""></li>
+          <li data-target="#myCarousel" data-slide-to="7" class=""></li>
+        </ol>
+        <div id="reviews" class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <blockquote class="active" style="opacity: 1; transform: translateX(0px); z-index: 20;"> <div data-shadow="" class="image-icon has-bg" style="background-image: url(https://sitaraman.vip/wp-content/uploads/2020/08/rl.jpg);"></div> <p><span class="open-quote">“</span>Stan Lee’s POW! Entertainment’s executives love the amazing creative, neat, beautiful work BestPitch delivered. We are in the high-concept movie industry and have been working with world class artists and creators. We are impressed by BestPitch's high level of business understanding, efficiency, patience and ability to create a beautiful theatrical presentations.<span class="close-quote">”</span><span class="star-rating-wrap"> <span class="star-rating"><span style="width: 100%;" class="filled"></span></span></span> <span class="bottom-arrow"></span></p><span class="testimonial-name">Rachel L.</span><span class="title"></span></blockquote>
+                <p class="text-right"><a class="btn btn-primary text-right" href="#buy" role="button">Get started today &rarr;</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <blockquote class="active" style="opacity: 1; transform: translateX(0px); z-index: 20;"> <div data-shadow="" class="image-icon has-bg" style="background-image: url(https://sitaraman.vip/wp-content/uploads/2020/08/ja.jpg);"></div> <p><span class="open-quote">“</span>It has been refreshing to find an external collaborator <u>who ‘gets it’ almost immediately</u> despite the complexities and tangential distractions. BestPitch is a pleasure to work with, responsive, attentive with a talent to create visuals and messages that hit the point. Our team would thoroughly recommend them and enjoyed their participation.<span class="close-quote">”</span> <span class="bottom-arrow"></span></p><span class="testimonial-name">Jean-Paul A.</span><span class="title"></span></blockquote>
+                <p class="text-right"><a class="btn btn-primary text-right" href="#buy" role="button">Get started today &rarr;</a></p>
+              </div>
+            </div>
+          </div><div class="carousel-item">
+            <div class="container">
+              <div class="carousel-caption text-left">
+<blockquote class="active" style="opacity: 1; transform: translateX(0px); z-index: 20;"> <div data-shadow="" class="image-icon has-bg" style="background-image: url(https://sitaraman.vip/wp-content/uploads/2019/06/gh.jpg);"></div> <p><span class="open-quote">“</span>I was unaware what all it took to catch the attention of potential investors...I am so glad I chose BestPitch...Getting ready to close my deal and secure the much needed capital, so just wanted to say THANK YOU BestPitch for all your hard work with my project. <u>Without this service I don't think I would have scored my investor.</u><span class="close-quote">”</span> <span class="bottom-arrow"></span></p><span class="testimonial-name">Gavin H.</span><span class="title"></span></blockquote>
+                <p class="text-right"><a class="btn btn-primary text-right" href="#buy" role="button">Get started today &rarr;</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <blockquote class="active" style="opacity: 1; transform: translateX(0px); z-index: 20;"> <div data-shadow="" class="image-icon has-bg" style="background-image: url(https://sitaraman.vip/wp-content/uploads/2019/06/al.jpg);"></div> <p><span class="open-quote">“</span>BestPitch was incredible. Not just in their professionalism and demeanor, but in their clear understanding of how to create the best Corp Deck– both in content and delivery. Their direction to me was extremely helpful. BestPitch made us feel relaxed and capable. <u>This was a multi-million dollar presentation.</u> BestPitch never showed signs of stress. They are true pros at what they do!<span class="close-quote">”</span><span class="star-rating-wrap"> <span class="star-rating"><span style="width: 100%;" class="filled"></span></span></span> <span class="bottom-arrow"></span></p><span class="testimonial-name">Abram L</span><span class="title"></span></blockquote>
+                
+                <p class="text-right"><a class="btn btn-primary text-right" href="#buy" role="button">Get started today &rarr;</a></p>
+              </div>
+            </div>
+          </div>
+        <div class="carousel-item">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <blockquote class="active" style="opacity: 1; transform: translateX(0px); z-index: 20;"> <div data-shadow="" class="image-icon has-bg" style="background-image: url(https://sitaraman.vip/wp-content/uploads/2021/06/st.jpg);"></div> <p><span class="open-quote">“</span>From okay deck loaded with information <u>to WOW! How do I invest?</u>
+BestPitch, did a fantastic job of distilling complex ideas and engineering speak into a compelling, digestible and most importantly fundable pitch deck...
+<u>If you want a pitch deck, BestPitch is your solution!</u><span class="close-quote">”</span><span class="star-rating-wrap"> <span class="star-rating"><span style="width: 100%;" class="filled"></span></span></span> <span class="bottom-arrow"></span></p><span class="testimonial-name">Dr. Sean T.</span><span class="title"></span></blockquote>
+                <p class="text-right"><a class="btn btn-primary text-right" href="#buy" role="button">Get started today &rarr;</a></p>
+              </div>
+            </div>
+          </div><div class="carousel-item">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <blockquote class="active" style="opacity: 1; transform: translateX(0px); z-index: 20;"> <div data-shadow="" class="image-icon has-bg" style="background-image: url(https://sitaraman.vip/wp-content/uploads/2019/06/rg.jpg);"></div> <p><span class="open-quote">“</span>Can’t say enough about BestPitch and the quality of service this company provides. Our team had the vision but <u>we needed a professional</u> to put it all together for us including financial projections. <u>BestPitch exceeded all expectations</u> and we highly recommend them.<span class="close-quote">”</span> <span class="bottom-arrow"></span></p><span class="testimonial-name">Reginald G.</span><span class="title"></span></blockquote>
+                
+                <p class="text-right"><a class="btn btn-primary text-right" href="#buy" role="button">Get started today &rarr;</a></p>
+              </div>
+            </div>
+          </div><div class="carousel-item">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <blockquote class="active" style="opacity: 1; transform: translateX(0px); z-index: 20;"> <div data-shadow="" class="image-icon has-bg" style="background-image: url(https://sitaraman.vip/wp-content/uploads/2019/06/jb.jpg);"></div> <p><span class="open-quote">“</span><u>Best Pitch is the best pitch deck designer I have ever worked with!</u> They understand your business needs by listening carefully to how you want your deck to look and feel in order to tell the best visual story to potential investors! We will be working with them again on more projects.<span class="close-quote">”</span><span class="star-rating-wrap"> <span class="star-rating"><span style="width: 100%;" class="filled"></span></span></span> <span class="bottom-arrow"></span></p><span class="testimonial-name">Jerauld B.</span><span class="title"></span></blockquote>
+                
+                <p class="text-right"><a class="btn btn-primary text-right" href="#buy" role="button">Get started today &rarr;</a></p>
+              </div>
+            </div>
+          </div><div class="carousel-item">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <blockquote class="active" style="opacity: 1; transform: translateX(0px); z-index: 20;"> <div data-shadow="" class="image-icon has-bg" style="background-image: url(https://sitaraman.vip/wp-content/uploads/2019/11/js.jpg);"></div> <p><span class="open-quote">“</span>Our project with BestPitch was a huge success. <u>The insight they provided made all the difference and our customer feedback only confirms they knew</u> exactly the message we were trying to convey. Their communication and willingness to take extra time with us was very helpful. <u>We will certainly be using BestPitch again and you should too.</u><span class="close-quote">”</span><span class="star-rating-wrap"> <span class="star-rating"><span style="width: 100%;" class="filled"></span></span></span> <span class="bottom-arrow"></span></p><span class="testimonial-name">Joseph S.</span><span class="title"></span></blockquote>
+                
+                <p class="text-right"><a class="btn btn-primary text-right" href="#buy" role="button">Get started today &rarr;</a></p>
+              </div>
+            </div>
+          </div></div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+
+
+<div id="process" class="container py-5">
+        <div class="row py-5">
+          <div class="col">
+            <h2 id="features-title" class="display-4">How it works</h2>
+            <p id="features-subtitle" class="text-muted lead">Work 1-on-1 with our experts to create your pitch in as little as a couple weeks.</p>
+             
+          </div>
+        </div>
+
+                <div class="row">
+          <div class="col-md-4">
+            <h3><span class="text-muted">1.</span> Intro</h3>
+            <p><strong class="text-primary">Get started same-day:</strong> Upon submitting an order, you'll be redirected to an Airtable form where you can share your details. We'll get back to you within the hour!</p>
+            
+          </div>
+          <div class="col-md-4">
+            <h3><span class="text-muted">2.</span> Strategy</h3>
+            <p><strong class="text-primary">We craft your winning deck:</strong> Before designing any slides, we first outline & perfect your pitch storyline to ensure you deliver the best message!</p>
+            
+          </div>
+          <div class="col-md-4">
+            <h3><span class="text-muted">3.</span> Design</h3>
+            <p><strong class="text-primary">Iterate to perfection:</strong> easily manage everything online, thanks to our fully-async process! We use Trello and Google Drive to track progress, annotations &amp; feedback.</p>
+            
+          </div>
+        </div><div class="row py-5">
+          <div class="col">
+            
+            
+            <a class="btn btn-lg btn-primary px-4 mr-2 btn-1" href="#buy">Get started</a> <a class="btn btn-lg btn-outline-primary btn-2" href="#metrics">Learn more</a>
+          </div>
+        </div><!-- Example row of columns -->
+        
+
+        <hr><!-- /.row -->
+    </div>
+
+    <div class="bg-gradient-r container-fluid py-5">
+        <div id="about" class="container">
+            <div class="row">
+                <div class="col-11 col-lg-10 my-auto py-4">
+                    <h5 id="slogan2" class="text-muted mt-2">About Us</h5>
+                    <h2 id="checklist-title">A winning track record: $2B+ raised, hundreds of happy clients.</h2>
+                    <p id="checklist">We have created slides for organizations of all sizes: from high-growth startups (Y-Combinator, Thiel Fellows, 30U30) to Fortune 100 (PEPSICO, JCPenney, AHA) – even venture funds & investment banks.</p>
+                        <p>Decks we created have closed literal <strong><u>millions in deals & funding</u></strong>; examples include...</p>
+                        <ul class="list-checklist">
+                            <li>seed to Series C+ funding from <a href="#about">blue-chip VCs</a> like Tiger Global & Khosla Ventures,</li>
+                            <li>national distribution deals with the likes of <a href="#about">Southern Glazers, Starbucks & Walmart</a>,</li>
+                            <li><a href="#about">$100M+ investment funds</a> (from VC & PE firms, to RE developers),</li>
+                            <li>even <a href="#about">mergers & acquisitions</a> of publicly-traded companies.</li>
+                        </ul>
+                        <p>The founders of BestPitch started in this business five years ago: while raising $2M for our own startup, we were hired to create a couple decks that closed $5M+ for two Y-Combinator alums. Since then, we have create hundreds of decks that helped secure millions in deals & funding!</p>
+                    </p>
+                    <a class="btn btn-primary px-4 btn-1" href="#buy">Get started</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="faq" class="container py-5">
+        <div class="row">
+            <div class="col my-0">
+                <h2 class="display-4">FAQ</h2>
+                <p class="lead">Frequently asked questions:</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col pl-0">
+                <div class="accordion" id="accordion1" role="tablist" aria-multiselectable="true">
+                    <div class="card">
+                        <div class="card-header" role="tab" id="heading1">
+                            <h5 class="mb-0">
+                                <a data-toggle="collapse" data-parent="#accordion1" href="#collapse1" aria-expanded="true" aria-controls="collapse1" class="collapsed">
+                                    <span id="faqq1">Do you handle just design, or content / storytelling too?</span> <i class="glyphicon glyphicon-plus"></i>
+                                </a>
+                                </h5>
+                        </div>
+                        <div id="collapse1" class="collapse show" data-parent="#accordion1" role="tabcard" aria-labelledby="heading1">
+                            <div class="card-body" id="faqa1">
+                                <p>Both. Our expertise is at the intersection of creative communications &amp; business strategy. We not only help organize &amp; design your pitch to captivate, but also offer insight &amp; research to flesh out your business plan.</p>
+                                <p>Storytelling is definitely a big part of what we do for decks: both in terms of communication &amp; copy, and deeper questions of business context (e.g. market size, recent transactions, competitive landscape) and execution (e.g. go-to-market). While there are certainly some aspects that investors would be expected to come from your end (ie. roadmap, pricing), we're here to help fill in the gaps.</p>
+                                <p>Our approach &amp; understanding of go-to-market &amp; financial strategy is informed by experience collaborating with investment firms &amp; bankers, as well as being founders of our own ventures which have raised 7+ figures.</p>
+                                <p>On the other hand, our skills as professional graphic designers brings a visual storytelling approach to concisely &amp; effectively communicating your pitch.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="heading2">
+                            <h5 class="mb-0">
+                                <a data-toggle="collapse" data-parent="#accordion1" href="#collapse2" aria-expanded="true" aria-controls="collapse2" class="collapsed">
+                                    <span id="faqq2">How long does it take? How much does it cost?</span> <i class="glyphicon glyphicon-plus"></i>
+                                </a>
+                                </h5>
+                        </div>
+                        <div id="collapse2" class="collapse" data-parent="#accordion1" role="tabcard" aria-labelledby="heading2">
+                            <div class="card-body" id="faqa2"><p>Our process is quick & easy: as little as 10 business days to create your pitch deck (4-5 for the first draft, remainder for revisions) — though, we can deliver on rush timelines as needed (as quick as 3bd). For "Design + Research" projects, this timeline starts only after the proposed presentation <u><em>outline is approved</em></u> by the client (which usually takes just one day).</p><p>There are no surprise charges with revisions, as we always charge a flat fee, agreed upon before the start of work. For pricing details or to get a quote, get started <a href="#buy">here</a>.</p></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="heading4">
+                            <h5 class="mb-0">
+                                <a data-toggle="collapse" data-parent="#accordion1" href="#collapse4" aria-expanded="true" aria-controls="collapse4" class="collapsed">
+                                    <span id="faqq4">Who creates the deck?</span> <i class="glyphicon glyphicon-plus"></i>
+                                </a>
+                                </h5>
+                        </div>
+                        <div id="collapse4" class="collapse" data-parent="#accordion1" role="tabcard" aria-labelledby="heading4">
+                            <div class="card-body" id="faqa4"><p>An expert designer (with a succesful track record creating multi-million-dollar presentations) will be assigned to work with you 1-on-1 (via email). No outsourcing, no faceless team. Our experts do 100% of the work — from the graphic design, to the strategy/research, and will be in direct contact with you throughout the process.</p></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="heading5">
+                            <h5 class="mb-0">
+                                <a data-toggle="collapse" data-parent="#accordion1" href="#collapse5" aria-expanded="true" aria-controls="collapse5" class="collapsed">
+                                    <span id="faqq5">Looking to create your pitch deck on your own?</span> <i class="glyphicon glyphicon-plus"></i>
+                                </a>
+                                </h5>
+                        </div>
+                        <div id="collapse5" class="collapse" data-parent="#accordion1" role="tabcard" aria-labelledby="heading5">
+                            <div class="card-body" id="faqa5"><p>If you’re not looking for bespoke services and would rather create your pitch deck yourself, you may find these resources helpful:</p>
+                                <ul>
+                                <li><a href="https://vip.graphics/pitch-decks?ref=vs" target="_blank" rel="noopener">Pitch deck templates that closed $100m+&nbsp;</a></li>
+                                <li><a href="https://vip.graphics/financial-model-templates/?ref=vs" target="_blank" rel="noopener">Pre-filled financial model templates&nbsp;</a></li>
+                                <li><a href="https://vip.graphics/shop/?ref=vs#:~:text=one-page" target="_blank" rel="noopener">One-pagers and executive summaries</a></li>
+                                <li><a href="https://bestpitchdeck.com/?ref=vs" target="_blank" rel="noopener">A collection of 390+ winning pitch decks</a></li>
+                                <li><a href="https://vip.graphics/blog/?ref=vs" target="_blank" rel="noopener">Resources &amp; guides for pitching your startup</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="heading6">
+                            <h5 class="mb-0">
+                                <a data-toggle="collapse" data-parent="#accordion1" href="#collapse6" aria-expanded="true" aria-controls="collapse6" class="collapsed">
+                                    <span id="faqq6">Can I see sample work?</span> <i class="glyphicon glyphicon-plus"></i>
+                                </a>
+                                </h5>
+                        </div>
+                        <div id="collapse6" class="collapse" data-parent="#accordion1" role="tabcard" aria-labelledby="heading6">
+                            <div class="card-body" id="faqa6"><p>As we're sure you will understand, we can not share the entirety of the decks we create due to the confidential nature of the IP &amp; trade secrets therein described. We are committed to treating the intellectual property of every client with the respect &amp; privacy it deserves. You can see examples of our <a href="#folio">pitch decks here</a>, as well as logos + testimonials from past clients above.</p></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="heading2">
+                            <h5 class="mb-0">
+                                <a data-toggle="collapse" data-parent="#accordion1" href="#collapse20" aria-expanded="true" aria-controls="collapse20" class="collapsed">
+                                    <span id="faqq2">What are the terms? Is there a contract?</span> <i class="glyphicon glyphicon-plus"></i>
+                                </a>
+                                </h5>
+                        </div>
+                        <div id="collapse20" class="collapse" data-parent="#accordion1" role="tabcard" aria-labelledby="heading2" style="">
+                            <div class="card-body" id="faqa2"><p>You can read the full terms <a href="/Terms_Deck.pdf" target="_blank">here</a>. To briefly summarize:</p><ul><li><strong>Turnaround time</strong>: Standard turnaround time is 4-5 business days per draft. For "Design + Research" projects, this timeline starts only after the proposed presentation <u><em>outline is approved</em></u> by the client. If you need faster, ask us about rush delivery.</li><li><strong>Confidentiality</strong>: we will keep your trade secrets confidential (we provide a pre-signed NDA) </li><li><strong>No exclusivity</strong>: we are independent contractors &amp; cannot accept any non-competes because we work with 100+ companies/yr.</li><li><strong>Price tiers</strong>: pricing is based on # of slides — if you exceed the slide count that was originally paid for, you will be charged for the next tier up (+5 slides).</li><li><strong>Presentation length</strong>: Total slide count is defined as all the unique slides created during the project — any appendices or slides that are replaced / removed during revisions will be included in the final editable PPT as hidden slides for your convenience and will count toward the total number of slides.</li><li><strong>Cancellation</strong>: see full agreement for causes for termination (ie. no progress for 3 weeks or more) and terms (Clause 10)</li><li><strong>Revisions</strong>: changes &amp; feedback will be exchanged via annotations (ie. GDrive, Adobe Cloud), Loom, and 
+ email (no live working sessions or calls). If feedback is not received within 3 business days, the deliverables will be deemed accepted.</li><li><strong>Payment</strong>: Invoices are due within 3 business days or receipt. Overdue payments will incur late invoice fees (Clause 3.1) and/or collection fees (Clause 3.5), per the agreement.</li><li><strong>Portfolio</strong>: you grant us permission to showcase our work in portfolios, etc. (provided your prior written approval of the shared materials)</li></ul></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="heading7">
+                            <h5 class="mb-0">
+                                <a data-toggle="collapse" data-parent="#accordion1" href="#collapse7" aria-expanded="true" aria-controls="collapse7" class="collapsed">
+                                    <span id="faqq7">What industries have you served?</span> <i class="glyphicon glyphicon-plus"></i>
+                                </a>
+                                </h5>
+                        </div>
+                        <div id="collapse7" class="collapse" data-parent="#accordion1" role="tabcard" aria-labelledby="heading7">
+                            <div class="card-body" id="faqa7">We've worked with over 150+ companies across industries; chances are that we've created at least a couple decks in your industry already! Some of the most popular industries we have served include...
+                                <ul class="mt-2">
+                                    <li>Health &amp; Wellness</li>
+                                    <li>Real Estate</li>
+                                    <li>Software &amp; SaaS&nbsp;</li>
+                                    <li>Consumer Goods (CPG)</li>
+                                    <li>Cannabis, CBD &amp; Hemp</li>
+                                    <li>Financial Services</li>
+                                    <li>Apps &amp; Marketplaces (B2C)</li>
+                                    <li>Biotech &amp; Life Sciences</li>
+                                    <li>Renewable Energy &amp; Water Tech</li>
+                                    <li>Cryptocurrency &amp; Blockchain</li>
+                                    <li>Sports &amp; eSports</li>
+                                    <li>Food &amp; Beverage</li>
+                                    <li>B2B Services</li>
+                                    <li>Film &amp; Entertainment</li>
+                                    <li><strong>…and more!</strong></li>
+                                </ul>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+     <div id="buy" class="py-5 bg-primary"><div class="container marketing">
+      <div class="pr-5 pt-md-5 pb-md-4 mx-auto text-left">
+        <h2 id="pricing-title" class="display-4">Build your perfect presentation</h2>
+        <p id="pricing-subtitle" class="lead text-muted">We want to help you build your winning deck, which is why we’ve made our services affordable for everyone:</p>
+      </div>
+      <div class="card-deck mb-3 text-left">
+        <div id="price2box" class="card mb-4">
+          <div class="card-header bg-secondary text-white py-3">
+            <h4 id="price2title" class="my-0 mt-1 font-weight-normal"><i class="fa fa-sync"></i> Deck Redesign</h4>
+          </div>
+          <div class="card-body">
+            <p id="price2desc" class="text-muted">For deck <u>redesign only</u>.</p>
+            <h1 id="price2cost" class="card-title pricing-card-title">$2,450 <small class="text-muted" style="font-size: 0.75em">flat-fee</small></h1>
+            <ul id="price2checklist" class="list-unstyled mt-3 mb-4">
+                <li><i class="fa fa-caret-right fa-xs text-primary"></i>&nbsp; <u>15</u> slides or less</li>
+                <li><i class="fa fa-caret-right fa-xs text-primary"></i>&nbsp; <u>2</u> revisions</li>
+                <li><i class="fa fa-caret-right fa-xs text-primary"></i>&nbsp; Editable file (.PPTX)</li>
+                <hr/>
+                <li><i class="fa fa-check fa-xs text-primary"></i>&nbsp; Storyline development</li>
+                <li><i class="fa fa-check fa-xs text-primary"></i>&nbsp; Branded design</li>
+                <li style="opacity: 0.5"><i class="fa fa-times fa-xs text-muted"></i>&nbsp; Business strategy (ie. GTM)</li>
+                <li style="opacity: 0.5"><i class="fa fa-times fa-xs text-muted"></i>&nbsp; Market analysis</li>
+                <li style="opacity: 0.5"><i class="fa fa-times fa-xs text-muted"></i>&nbsp; Content & copywriting</li>
+            </ul>
+            <a id="price2btn" href="https://buy.stripe.com/28obLZ2e30ZP4Sc8wPP" target="_blank" class="btn btn-lg btn-block btn-outline-primary">Get started</a>
+          </div>
+        </div>
+        <div id="price3box" class="card mb-4 shadow-lg">
+          <div class="card-header bg-primary text-white py-3">
+            <h4 id="price3title" class="my-0 mt-1 font-weight-normal"><i class="far fa-edit"></i> Deck Creation</h4>
+          </div>
+          <div class="card-body">
+            <p id="price2desc" class="text-muted">Deck <strong>design + storytelling + research</strong>.</p>
+            <h1 id="price2cost" class="card-title pricing-card-title">$3,650 <small class="text-muted" style="font-size: 0.75em"> flat-fee</small></h1>
+            <ul id="price2checklist" class="list-unstyled mt-3 mb-4">
+                <li><i class="fa fa-caret-right fa-xs text-primary"></i>&nbsp; <u>15</u> slides or less</li>
+                <li><i class="fa fa-caret-right fa-xs text-primary"></i>&nbsp; <u>3</u> revisions</li>
+                <li><i class="fa fa-caret-right fa-xs text-primary"></i>&nbsp; Editable file (.PPTX)</li>
+                <hr/>
+                <li><i class="fa fa-check fa-xs text-primary"></i>&nbsp; Storyline development</li>
+                <li><i class="fa fa-check fa-xs text-primary"></i>&nbsp; Branded design</li>
+                <li><i class="fa fa-check fa-xs text-primary"></i>&nbsp; Business strategy (ie. GTM)</li>
+                <li><i class="fa fa-check fa-xs text-primary"></i>&nbsp; Market research + analysis</li>
+                <li><i class="fa fa-check fa-xs text-primary"></i>&nbsp; Content & copywriting</li>
+            </ul>
+            <a id="price3btn" href="https://buy.stripe.com/eVag2f19Z0ZPesMaEQ" target="_blank" class="btn btn-lg btn-block btn-outline-primary">Get started</a>
+          </div>
+        </div>
+        <div id="price3box" class="card mb-4 shadow-lg">
+          <div class="card-header bg-primary text-white py-3">
+            <h4 id="price3title" class="my-0 mt-1 font-weight-normal"><i class="fa fa-rocket"></i> Unicorn Pitch</h4>
+          </div>
+          <div class="card-body">
+            <p id="price2desc" class="text-muted">Deck creation + <strong>one-pager & coaching</strong>.</p>
+            <h1 id="price2cost" class="card-title pricing-card-title">$7,500 <small class="text-muted" style="font-size: 0.75em"> flat-fee</small></h1>
+            <ul id="price2checklist" class="list-unstyled mt-3 mb-4">
+                <li><i class="fa fa-caret-right fa-xs text-primary"></i>&nbsp; <u>25</u> slides or less</li>
+                <li><i class="fa fa-caret-right fa-xs text-primary"></i>&nbsp; <u>5</u> revisions</li>
+                <li><i class="fa fa-caret-right fa-xs text-primary"></i>&nbsp; Editable file (.PPTX)</li>
+                <hr/>
+                <li><i class="fa fa-check fa-xs text-primary"></i>&nbsp; Storyline development</li>
+                <li><i class="fa fa-check fa-xs text-primary"></i>&nbsp; Branded design</li>
+                <li><i class="fa fa-check fa-xs text-primary"></i>&nbsp; Business strategy (ie. GTM)</li>
+                <li><i class="fa fa-check fa-xs text-primary"></i>&nbsp; Market research + analysis</li>
+                <li><i class="fa fa-check fa-xs text-primary"></i>&nbsp; Content & copywriting</li>
+                <li><i class="fa fa-plus fa-xs text-primary"></i>&nbsp; <u>2</u> versions: reader + presenter</li>
+                <li><i class="fa fa-plus fa-xs text-primary"></i>&nbsp; One-page executive summary</li> 
+                <li><i class="fa fa-plus fa-xs text-primary"></i>&nbsp; Pitch coaching (30min. call)</li>
+            </ul>
+            <a id="price3btn" href="https://buy.stripe.com/8wMaHV8Cr23TdoIaER" target="_blank" class="btn btn-lg btn-block btn-outline-primary">Get started</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="my-5 text-white">
+        <h2 class="mb-4" style="max-width: 900px">Optional add-ons</h2>
+        <table class="table">
+          <tbody>
+            <tr>
+              <td>One-Page Pitch</td>
+              <td class="text-muted">One-page pitch teaser / executive summary / investor memo</td>
+              <td>$999</td>
+            </tr><tr>
+              <td>Pitch Prep</td>
+              <td class="text-muted">30-45 min. pitch coaching call with VC-backed founder</td>
+              <td>$600/hr</td>
+            </tr>
+            <tr>
+              <td>Financial Model</td>
+              <td class="text-muted">5-year financial projections (.XLS)</td>
+              <td>$6,500</td>
+            </tr>
+            <tr>
+              <td>Market Research</td>
+              <td class="text-muted">Need specific market data? We'll do the research.</td>
+              <td>$3,500</td>
+            </tr>
+            <tr>
+              <td>Notion Deck</td>
+              <td class="text-muted">Your pitch, in Notion: for easy sharing & editing.</td>
+              <td>$2,100</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="py-1 mx-auto text-center">
+        <p id="pricing-subtitle"><span class="text-muted">Looking for an expert to review your existing pitch deck / prefer to make the changes yourself? Check out our</span> <a href="//bestpitchdeck.com/review?from=hire" style="color: white !important; opacity: 1 !important;">slide-by-slide review service</a>.</p>
+      </div>
+  </div><div></div></div>
+
+        <div class="container">
+            <div class="row pt-2">
+                <div id="main-img-col" class="col-md-4 col-12 order-md-12 text-center my-auto py-4">
+                    <img id="main-img" class="img-fluid" style="min-width: 40vw; margin: auto" src="https://sitaraman.vip/wp-content/uploads/2019/04/slide1-1024x666.png">
+                </div>
+                <div class="col order-md-1 my-auto py-5">
+                    <h2 id="second-title" class="display-4" style="max-width: 700px">You’ve got one shot.</h2>
+                    <p id="second-description">Investors are busy. Prospects are unforgiving. Even for the best ideas, a compelling presentation can be the difference between a multi-million-dollar investment and a failed startup. Close deals faster and easier with slides you can trust, designed by the pitch deck experts. </p>
+                    <a class="btn btn-md btn-outline-primary px-4 btn-1" href="#buy">Get started</a>
+                </div>
+            </div>
+        </div>
+
+      <footer class="py-5 text-center container">
+        <hr>
+        <span id="socials">
+          <a id="social-1" target="_blank" href=" https://twitter.com/pitchdecks ">
+            <i class="fab fa-twitter"></i>
+          </a> &nbsp; <a id="social-1" target="_blank" href=" https://instagram.com/pitchdecks ">
+            <i class="fab fa-instagram"></i>
+          </a> &nbsp; <a id="social-1" target="_blank" href=" https://pinterest.com/pitchdecks ">
+            <i class="fab fa-pinterest"></i>
+          </a> &nbsp; <a id="social-1" target="_blank" href="https://medium.com/@pitchdecks">
+            <i class="fab fa-medium"></i>
+          </a> &nbsp; </span>
+        <p id="footer-text" class="mt-2">Copyright &copy; <script type="text/javascript">
+            document.write(new Date().getFullYear());
+          </script>, Pitch Decks Design. All Rights Reserved. </p>
+      </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+<script>
+$(document).ready(function(){
+
+if($('.brands_slider').length)
+{
+var brandsSlider = $('.brands_slider');
+
+brandsSlider.owlCarousel(
+{
+loop:true,
+autoplay:true,
+autoplayTimeout:5000,
+nav:false,
+dots:false,
+autoWidth:true,
+items:8,
+margin:42
+});
+
+if($('.brands_prev').length)
+{
+var prev = $('.brands_prev');
+prev.on('click', function()
+{
+brandsSlider.trigger('prev.owl.carousel');
+});
+}
+
+if($('.brands_next').length)
+{
+var next = $('.brands_next');
+next.on('click', function()
+{
+brandsSlider.trigger('next.owl.carousel');
+});
+}
+}
+
+
+});
+</script>
+
+    <script>
+    // focus on input
+    document.addEventListener("DOMContentLoaded", function(){
+      setTimeout( document.querySelector('input#email').autofocus = true, 1000)
+    });
+
+    // smooth scroll
+    $('a:not([class*="collapse"], .test, .nav-link, .navbar-brand, .new-button').click(function() {
+        var sectionTo = $(this).attr('href');
+        $('html, body').animate({
+          scrollTop: $(sectionTo).offset().top - 100
+        }, 500);
+    });
+
+    // transparent nav
+    $(function () {
+        $(window).on('scroll', function () {
+            if ( $(window).scrollTop() > 10 ) {
+                $('.navbar').addClass('active');
+            } else {
+                $('.navbar').removeClass('active');
+            }
+        });
+    });
+    </script>
+
+<script async src="//static.getclicky.com/101361846.js"></script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101361846ns.gif" /></p></noscript>  <!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//track.sitaraman.vip/piwik/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '5']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code --></body>
+</html>
